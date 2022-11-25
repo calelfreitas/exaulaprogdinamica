@@ -1,0 +1,10 @@
+conteudo=input("Insira a lista de numeros separados por ',':")
+print()
+numeros=conteudo.split(',')
+lista=numeros
+for i in range(len(numeros)):
+    numeros[i]=int(numeros[i])
+    print(numeros[i])
+print()
+print(lista)
+    
